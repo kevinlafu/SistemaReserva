@@ -1,0 +1,123 @@
+
+body{
+	margin: 0;
+	font-family: Lato;
+	font-size: 12px;
+}
+ul, li{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	font-size: 50px;
+}
+.calendar{
+	display: inline-block;
+	padding: 30px;
+	margin: auto;
+	padding-top: 80px;
+}
+
+.botonera{
+	text-align: left;
+	/*margin: 80px;*/
+}
+
+.btn{
+background-color: #2dc234;
+/*background-image: -webkit-linear-gradient(rgba(41, 150, 47, .8), rgba(45, 194, 52, .2));
+background-image: -moz-linear-gradient(rgba(41, 150, 47, .8), rgba(45, 194, 52, .2));
+background-image: -o-linear-gradient(rgba(41, 150, 47, .8), rgba(45, 194, 52, .2));
+background-image: linear-gradient(rgba(41, 150, 47, .8), rgba(45, 194, 52, .2));
+-ms-border-radius:8px;
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+-webkit-box-shadow: 0 8px 0 #197b1d, 0 10px 20px rgba(0, 0, 0, .4);
+-moz-box-shadow: 0 8px 0 #197b1d, 0 10px 20px rgba(0, 0, 0, .4);
+box-shadow: 0 8px 0 #197b1d, 0 10px 20px rgba(0, 0, 0, .4);
+color: #fff;
+/*display: inline-block;*/
+font-family: ‘Pacifico’, Arial, sans-serif;
+font-size: 15px;
+line-height: 1;
+padding: 15px 25px;
+text-decoration: none;
+text-shadow: 0 -1px 1px rgba(25, 123, 29, .7);
+}
+
+.calendar .day{
+	background: #ecf0f1;
+	border-bottom: 2px solid #bdc3c7;
+	float: left;
+	margin: 3px;
+	position: relative;
+	height: 150px; 
+	width: 150px;
+}
+.day.marked{
+	background: #3498db;
+	border-color: #2980b9;
+}
+.day.marked.pagado{
+	background: #3ead47;
+	border-color: #2980b9;
+}
+ .day .day-number{
+	color: #7f8c8d;
+	left: 5px;
+	position: absolute;
+	top: 5px;
+}
+.day.marked .day-number{
+	color: white;
+}
+
+.day .events{
+	color: white;
+	text-align: center;
+	margin: 20px 7px 7px;
+    height: 80%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.day .events h5{
+    margin: 0 0 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    font-weight:bold;
+    text-decoration: underline;
+}
+
+.day .events strong,
+.day .events span{
+	display: block;
+	font-size: 11px;
+}
+.day a.add-event{
+	background: url('https://db.tt/5jlmu47h') no-repeat;
+	display: block;
+	height: 46px;
+	left: 50%;
+	margin-left: -21px;
+	margin-top: -21px;
+	position: absolute;
+	top: 50%;
+	width: 46px;
+}
+
+#add-event .modal-body div{
+	margin-bottom: 20px;
+}
+
+#add-event .modal-body label{
+	display: block;
+	font-weight: bold;
+	margin-bottom: 4px;
+}
+
